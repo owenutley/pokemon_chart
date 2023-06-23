@@ -20,3 +20,7 @@ Run project: python3 poke_chart.py
 This Program uses the pokeapi at pokeapi.com
 
 It uses the api to pull stats and a few other information pieces to put together a chart for comparisons.
+
+
+
+The data.json file is used for temperary storage for data pulled from the api. The information in the file currently if changed will not result in breaking the Program at runtime.
