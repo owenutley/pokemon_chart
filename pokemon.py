@@ -7,7 +7,7 @@ file_name = sys.argv[2]
 
 pokemon_all = {}
 
-count = 0
+count = 905
 while True:
     count +=1
     try:
@@ -29,7 +29,7 @@ while True:
                                                     }}
         else:
             print("couldn't get your pokemon!")
-    if count >= int(count_num):
+    if count >= int(count_num) + 905:
         break
 
 with open(F"{file_name}", "x") as json_file:
