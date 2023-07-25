@@ -30,11 +30,11 @@ def make_chart(pokemon_names, types):
     for i in types:
         num = []
         if i == "fire":
-            random_int = np.random.randint(140, 255)
+            random_int = np.random.randint(150, 255)
             num.append(random_int)
-            random_int = np.random.randint(0, 110)
+            random_int = np.random.randint(0, 50)
             num.append(random_int)
-            random_int = np.random.randint(0, 110)
+            random_int = np.random.randint(0, 70)
             num.append(random_int)
         elif i == "grass":
             random_int = np.random.randint(0, 110)
@@ -58,11 +58,11 @@ def make_chart(pokemon_names, types):
             random_int = np.random.randint(140, 255)
             num.append(random_int)
         elif i == "ground":
-            random_int = np.random.randint(140, 255)
+            random_int = np.random.randint(200, 255)
             num.append(random_int)
-            random_int = np.random.randint(120, 210)
+            random_int = np.random.randint(150, 180)
             num.append(random_int)
-            random_int = np.random.randint(0, 90)
+            random_int = np.random.randint(0, 120)
             num.append(random_int)
         elif i == "rock":
             random_int = np.random.randint(100, 220)
